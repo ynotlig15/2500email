@@ -1,0 +1,17 @@
+<form action="https://api.web3forms.com/submit" method="POST">
+    <!-- Access Key para Web3Forms -->
+    <input type="hidden" name="access_key" value="b2e55a0a-1a2a-4f84-ace1-9bc0d04063c8">
+
+    <!-- Campos do formulário -->
+    <input type="text" name="name" placeholder="Seu nome" required>
+    <input type="email" name="email" placeholder="Seu e-mail" required>
+    <textarea name="message" placeholder="Sua mensagem" required></textarea>
+
+    <!-- Proteção contra spam -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Página de sucesso personalizada (opcional) -->
+    <!-- <input type="hidden" name="redirect" value="https://meusite.com/obrigado.html"> -->
+
+    <button type="submit">Enviar Formulário</button>
+</form>
